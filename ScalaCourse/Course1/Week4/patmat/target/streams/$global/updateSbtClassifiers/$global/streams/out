@@ -691,6 +691,44 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.9->org.scala-lang#scala-library;2.10.5 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.9->org.scala-sbt#interface;0.13.9 [compile->default(compile)]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.7.5 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.5 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.5
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.7.5 in sbt-chain
+[debug] 	[0.7.5] net.virtual-void#sbt-dependency-graph;0.7.5
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [compile->master(compile)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [compile->compile(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [compile->compile(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.1 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->runtime(*)]
+[debug] == resolving dependencies com.github.mdr#ascii-graphs_2.10;0.0.3->org.scala-lang#scala-library;2.10.5 [runtime->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->default(compile)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->runtime]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->compile]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [compile->master]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies net.virtual-void#sbt-dependency-graph;0.7.5->com.github.mdr#ascii-graphs_2.10;0.0.3 [runtime->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->master]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->default(compile)]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->master]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [default->default(compile)]
 [info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {default=[default(compile)]}
@@ -735,10 +773,6 @@
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scalastyle#scalastyle_2.10;0.8.0->com.typesafe#config;1.2.0 [runtime->compile]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [default->master]
-[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->default(compile)]
-[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->runtime]
-[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->compile]
-[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->master]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scalariform#scalariform_2.10;0.1.7 [default->default(compile)]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scalariform#scalariform_2.10;0.1.7 [default->runtime]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT->org.scalariform#scalariform_2.10;0.1.7 [default->compile]
@@ -828,8 +862,10 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar
-[debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.5!sbt-dependency-graph.jar
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar
+[debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.10;2.2.1!scalaj-http_2.10.jar
@@ -890,9 +926,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.9!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.9!apply-macro.jar
-[debug] :: resolution report :: resolve 1192ms :: artifacts dl 94ms
-[debug] 	report for progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT default produced in C:\Users\sacha\Desktop\Coursera\ScalaCourse\Course1\Week4\patmat\target\resolution-cache\reports\progfun1-patmat-progfun1-patmat$sbt_2.11-default.xml
-[debug] 	resolve done (1192ms resolve - 94ms download)
+[debug] :: resolution report :: resolve 615ms :: artifacts dl 44ms
+[debug] 	report for progfun1-patmat#progfun1-patmat$sbt_2.11;0.1-SNAPSHOT default produced in E:\Coursera\CourseraFunctionalProgrammingWithScalaSpecialization\ScalaCourse\Course1\Week4\patmat\target\resolution-cache\reports\progfun1-patmat-progfun1-patmat$sbt_2.11-default.xml
+[debug] 	resolve done (615ms resolve - 44ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -905,6 +941,15 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.9 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.9
 [debug] 	found org.scala-sbt#sbt;0.13.9 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->default(compile)]
+[info] Resolving org.scala-lang#scala-library;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.5 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.5
+[debug] 	found org.scala-lang#scala-library;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-library;2.10.5
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.5 [default->master]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-sbt#main;0.13.9 [default->default(compile)]
 [info] Resolving org.scala-sbt#main;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#main;0.13.9 {default=[default(compile)]}
@@ -920,6 +965,23 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#classpath;0.13.9 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#classpath;0.13.9
 [debug] 	found org.scala-sbt#classpath;0.13.9 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [default->default(compile)]
+[info] Resolving org.scala-lang#scala-compiler;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.5 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.5
+[debug] 	found org.scala-lang#scala-compiler;2.10.5 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.5 [default->master]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [default->default(compile)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.5 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.5
+[debug] 	found org.scala-lang#scala-reflect;2.10.5 in sbt-chain
+[debug] 	[2.10.5] org.scala-lang#scala-reflect;2.10.5
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.5 [default->master]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-sbt#interface;0.13.9 [default->default(compile)]
 [info] Resolving org.scala-sbt#interface;0.13.9 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#interface;0.13.9 {default=[default(compile)]}
@@ -1022,6 +1084,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#ivy;0.13.9 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#ivy;0.13.9
 [debug] 	found org.scala-sbt#ivy;0.13.9 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-sbt#cross;0.13.9 [default->default(compile)]
+[info] Resolving org.scala-sbt#cross;0.13.9 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#cross;0.13.9 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#cross;0.13.9
+[debug] 	found org.scala-sbt#cross;0.13.9 in sbt-chain
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93 [default->default(compile)]
 [info] Resolving org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93 {default=[default(compile)]}
@@ -1177,6 +1244,23 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.9 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.9
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.9 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->default(compile)]
+[info] Resolving net.virtual-void#sbt-dependency-graph;0.7.5 ...
+[debug] sbt-chain: Checking cache for: dependency: net.virtual-void#sbt-dependency-graph;0.7.5 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: net.virtual-void#sbt-dependency-graph;0.7.5
+[debug] 	found net.virtual-void#sbt-dependency-graph;0.7.5 in sbt-chain
+[debug] 	[0.7.5] net.virtual-void#sbt-dependency-graph;0.7.5
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->net.virtual-void#sbt-dependency-graph;0.7.5 [default->master]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->default(compile)]
+[info] Resolving com.github.mdr#ascii-graphs_2.10;0.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: com.github.mdr#ascii-graphs_2.10;0.0.3 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: com.github.mdr#ascii-graphs_2.10;0.0.3
+[debug] 	found com.github.mdr#ascii-graphs_2.10;0.0.3 in sbt-chain
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->runtime]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->compile]
+[debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->com.github.mdr#ascii-graphs_2.10;0.0.3 [default->master]
 [debug] == resolving dependencies progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT->org.scalastyle#scalastyle_2.10;0.8.0 [default->default(compile)]
 [info] Resolving org.scalastyle#scalastyle_2.10;0.8.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalastyle#scalastyle_2.10;0.8.0 {default=[default(compile)]}
@@ -1244,9 +1328,12 @@
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.9!sbt.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.5!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.9!main.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#actions;0.13.9!actions.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#classpath;0.13.9!classpath.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.5!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.5!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#interface;0.13.9!interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#io;0.13.9!io.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#control;0.13.9!control.jar(src)
@@ -1266,6 +1353,7 @@
 [debug] 	[NOT REQUIRED] org.scala-tools.sbinary#sbinary_2.10;0.4.2!sbinary_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-ivy-integration;0.13.9!compiler-ivy-integration.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#ivy;0.13.9!ivy.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#cross;0.13.9!cross.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt.ivy#ivy;2.3.0-sbt-c5d1b95fdcc1e1007740ffbecf4eb07abc51ec93!ivy.jar(src)
 [debug] 	[NOT REQUIRED] com.jcraft#jsch;0.1.46!jsch.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#serialization_2.10;0.1.1!serialization_2.10.jar(src)
@@ -1291,6 +1379,8 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.9!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.9!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.9!precompiled-2_9_3.jar(src)
+[debug] 	[NOT REQUIRED] net.virtual-void#sbt-dependency-graph;0.7.5!sbt-dependency-graph.jar(src)
+[debug] 	[NOT REQUIRED] com.github.mdr#ascii-graphs_2.10;0.0.3!ascii-graphs_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalastyle#scalastyle_2.10;0.8.0!scalastyle_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalariform#scalariform_2.10;0.1.7!scalariform_2.10.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.2.0!config.jar(src)
@@ -1299,6 +1389,6 @@
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.1.0!scalaz-core_2.10.jar(src)
 [debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.1.0!scalaz-effect_2.10.jar(src)
-[debug] :: resolution report :: resolve 383ms :: artifacts dl 76ms
-[debug] 	report for progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT default produced in C:\Users\sacha\Desktop\Coursera\ScalaCourse\Course1\Week4\patmat\target\resolution-cache\reports\progfun1-patmat-progfun1-patmat$sources_2.11-default.xml
-[debug] 	resolve done (383ms resolve - 76ms download)
+[debug] :: resolution report :: resolve 180ms :: artifacts dl 64ms
+[debug] 	report for progfun1-patmat#progfun1-patmat$sources_2.11;0.1-SNAPSHOT default produced in E:\Coursera\CourseraFunctionalProgrammingWithScalaSpecialization\ScalaCourse\Course1\Week4\patmat\target\resolution-cache\reports\progfun1-patmat-progfun1-patmat$sources_2.11-default.xml
+[debug] 	resolve done (180ms resolve - 64ms download)

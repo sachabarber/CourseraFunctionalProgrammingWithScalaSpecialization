@@ -151,7 +151,9 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+    def createCodeTree(chars: List[Char]): CodeTree = {
+      until(singleton, combine)(makeOrderedLeafList(times(chars))).head
+    }
   
 
   // Part 3: Decoding
@@ -162,7 +164,15 @@ object Huffman {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = ???
+    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = {
+      def walkCodeTree(remainingTree: CodeTree, bits: List[Bit]): List[Char] = remainingTree match {
+        case Leaf (c, _) => if (bits.isEmpty) List(c) else  c :: decode(tree, bits)
+        case Fork(left, right, _, _) if bits.head == 0 => walkCodeTree(left, bits.tail)
+        case Fork(left, right, _, _) => walkCodeTree(right, bits.tail)
+      }
+
+      walkCodeTree(tree, bits)
+    }
   
   /**
    * A Huffman coding tree for the French language.
@@ -180,7 +190,7 @@ object Huffman {
   /**
    * Write a function that returns the decoded secret
    */
-    def decodedSecret: List[Char] = ???
+    def decodedSecret: List[Char] = decode(frenchCode,secret)
   
 
   // Part 4a: Encoding using Huffman tree
