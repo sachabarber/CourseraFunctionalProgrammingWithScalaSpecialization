@@ -101,7 +101,7 @@ object Anagrams {
        .mapValues(x => x.map({ case (c, l) => l}).sum)
 
      combined
-       .filter ({ case (c, l) => l != 0})
+       .filter ({ case (c, l) => l > 0})
        .sorted
   }
 
