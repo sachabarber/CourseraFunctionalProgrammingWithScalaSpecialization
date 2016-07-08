@@ -154,11 +154,11 @@ object Anagrams {
   def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
 
     def sentenceAnagramsInner(occurrences: Occurrences): List[Sentence] = occurrences match {
-      case List() => Nil
       case Nil => List(Nil)
+      case List() => List(Nil)
       case _ => for {
         combHead <- combinations(occurrences)
-        wordHead <- dictionaryByOccurrences(combHead)
+        wordHead <- (dictionaryByOccurrences.withDefaultValue(List()))(combHead)
         restOfTheSentence <- sentenceAnagramsInner(subtract(occurrences, combHead))
       } yield wordHead :: restOfTheSentence
     }

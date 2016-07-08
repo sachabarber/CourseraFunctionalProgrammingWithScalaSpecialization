@@ -54,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -63,8 +63,8 @@
       <file leaf-file-name="Anagrams.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3323398">
-              <caret line="58" column="116" selection-start-line="58" selection-start-column="116" selection-end-line="58" selection-end-column="116" />
+            <state vertical-scroll-proportion="0.709389">
+              <caret line="162" column="43" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -666,21 +666,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnagramsSuite - 2016.07.08 at 11h 54m 55s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2016.07.08 at 11h 58m 21s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 01m 14s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 01m 48s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 02m 42s.xml">
-      <configuration name="AnagramsSuite" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnagramsSuite - 2016.07.08 at 12h 04m 40s.xml">
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
@@ -691,6 +676,21 @@
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnagramsSuite - 2016.07.08 at 12h 10m 58s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 29m 52s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 31m 13s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 35m 08s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 35m 47s.xml">
+      <configuration name="AnagramsSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnagramsSuite - 2016.07.08 at 12h 38m 13s.xml">
       <configuration name="AnagramsSuite" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnagramsSuite_combinations__abba - 2016.07.08 at 12h 06m 33s.xml">
@@ -769,7 +769,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="scala-line">
           <url>file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala</url>
-          <line>157</line>
+          <line>156</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
@@ -868,15 +868,15 @@
     <entry file="file://$PROJECT_DIR$/src/test/scala/forcomp/AnagramsSuite.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <caret line="70" column="3" selection-start-line="70" selection-start-column="3" selection-end-line="70" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/forcomp/Anagrams.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3323398">
-          <caret line="58" column="116" selection-start-line="58" selection-start-column="116" selection-end-line="58" selection-end-column="116" />
+        <state vertical-scroll-proportion="0.709389">
+          <caret line="162" column="43" selection-start-line="162" selection-start-column="43" selection-end-line="162" selection-end-column="43" />
           <folding />
         </state>
       </provider>
