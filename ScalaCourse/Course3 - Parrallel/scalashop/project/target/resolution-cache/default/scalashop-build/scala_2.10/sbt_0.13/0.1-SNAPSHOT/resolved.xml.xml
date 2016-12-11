@@ -4,8 +4,8 @@
 		module="scalashop-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161208193950"
-		e:scalaVersion="2.10" e:sbtVersion="0.13"
+		publication="20161211205714"
+		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
 		scalashop-build
@@ -40,8 +40,8 @@
 		<dependency org="org.scalaj" name="scalaj-http_2.10" rev="2.2.1" conf="compile->default(compile)"/>
 		<dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-lang3" rev="3.4" conf="compile->default(compile)"/>
-		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
-		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.2" conf="compile->default(compile)" e:scalaVersion="2.10" e:sbtVersion="0.13"/>
+		<dependency org="com.typesafe.sbteclipse" name="sbteclipse-plugin" rev="4.0.0" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
+		<dependency org="org.scala-js" name="sbt-scalajs" rev="0.6.2" conf="compile->default(compile)" e:sbtVersion="0.13" e:scalaVersion="2.10"/>
 		<override org="org.scala-lang" module="scala-library" matcher="exact" rev="2.10.5"/>
 		<override org="org.scala-lang" module="scala-compiler" matcher="exact" rev="2.10.5"/>
 		<override org="org.scala-lang" module="scala-reflect" matcher="exact" rev="2.10.5"/>

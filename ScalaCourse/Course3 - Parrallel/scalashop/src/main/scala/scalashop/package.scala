@@ -40,30 +40,8 @@ package object scalashop {
 
   case class PixelValues(red :Int, green : Int, blue:Int, alpha : Int)
 
-
   /** Computes the blurred RGBA value of a single pixel of the input image. */
   def boxBlurKernel(src: Img, x: Int, y: Int, radius: Int): RGBA = {
-
-//    // TODO implement using while loops
-//    val pixels = {
-//      for (
-//        i <- -radius to radius;
-//        j <- -radius to radius
-//      ) yield (scalashop.clamp(x + i, 0, src.width - 1), scalashop.clamp(y + j, 0, src.height - 1))
-//    }.distinct.map({
-//      case (x, y) =>
-//        val pixel = src(x, y)
-//        (red(pixel), green(pixel), blue(pixel), alpha(pixel))
-//    })
-//
-//    rgba(
-//      pixels.map(_._1).sum / pixels.length,
-//      pixels.map(_._2).sum / pixels.length,
-//      pixels.map(_._3).sum / pixels.length,
-//      pixels.map(_._4).sum / pixels.length
-//    )
-
-
     val sourroundingPixelValues = {
       for (
         i <- -radius to radius;
