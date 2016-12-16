@@ -41,22 +41,50 @@ object ParallelParenthesesBalancing {
   /** Returns `true` iff the parentheses in the input `chars` are balanced.
    */
   def balance(chars: Array[Char]): Boolean = {
-    ???
+    def balanceInner(chars: Array[Char], acc: Int) : Boolean = {
+      if (chars.isEmpty) acc == 0
+      else if (acc < 0) false
+      else if (chars.head == '(') balanceInner(chars.tail, acc + 1)
+      else if (chars.head == ')') balanceInner(chars.tail, acc - 1)
+      else balanceInner(chars.tail, acc)
+    }
+
+    balanceInner(chars,0)
   }
+
+  case class BracketData(total:Int, minimumCount:Int)
 
   /** Returns `true` iff the parentheses in the input `chars` are balanced.
    */
   def parBalance(chars: Array[Char], threshold: Int): Boolean = {
 
-    def traverse(idx: Int, until: Int, arg1: Int, arg2: Int) /*: ???*/ = {
-      ???
+    //@tailrec
+    def traverse(idx: Int, until: Int, arg1: Int, arg2: Int) : BracketData = {
+
+      var minimumCount = 0
+      var totalCount = 0
+      for(current <- idx.until(until)) {
+        if(chars(current) == '(') totalCount = totalCount + 1
+        if(chars(current) == ')') totalCount = totalCount - 1
+        if(totalCount < minimumCount) minimumCount = totalCount
+      }
+
+      BracketData(totalCount,minimumCount)
     }
 
-    def reduce(from: Int, until: Int) /*: ???*/ = {
-      ???
+    def reduce(from: Int, until: Int) : BracketData = {
+      val range = until - from
+      if(range >= threshold) {
+        val middle = from + (until - from) / 2
+        val (leftBracketData, rightBracketData) = parallel(reduce(from, middle), reduce(middle, until))
+        BracketData(Math.min(leftBracketData.total, leftBracketData.minimumCount + rightBracketData.total),
+          leftBracketData.minimumCount + rightBracketData.minimumCount)
+      }
+      else
+        traverse(from, until, 0, 0)
     }
 
-    reduce(0, chars.length) == ???
+    reduce(0, chars.length) == BracketData(0,0)
   }
 
   // For those who want more:
